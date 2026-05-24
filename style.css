@@ -12,6 +12,7 @@ body{
 
 html, body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -94,6 +95,7 @@ button{
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .card{
@@ -101,7 +103,7 @@ button{
     background-color: #1b1b1b;
     border-radius: 15px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.4s ease;
 }
 
 .card:hover{
@@ -161,4 +163,11 @@ button{
     .card{
         width: 90%;
     }
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: gray;
 }
